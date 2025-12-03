@@ -1,0 +1,11 @@
+streamlit
+PyMuPDF
+sentence-transformers
+scikit-learn
+huggingface_hub
+transformers
+numpy
+pandas
+accelerate
+bitsandbytes
+
