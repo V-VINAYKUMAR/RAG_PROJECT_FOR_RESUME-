@@ -180,3 +180,5 @@ This project is for educational and research purposes.
 - Sentence Transformers  
 - Streamlit Framework  
 - Mistral AI  
+
+-working link deployed via streamlit:-https://ragbasedprojectforresume.streamlit.app/#score-breakdown
