@@ -52,13 +52,79 @@ def load_embedder():
 embedder = load_embedder()
 
 SKILL_VOCAB = [
-    "python", "java", "c", "c++", "javascript", "react", "angular", "node.js",
-    "docker", "kubernetes", "aws", "redis", "sql", "mysql", "postgresql",
-    "mongodb", "flask", "django", "linux", "go",
-    "data science", "machine learning", "nlp", "deep learning",
-    "git", "github", "html", "css", "opencv", "pandas",
-    "matplotlib", "scikit-learn"
+
+    # Programming Languages
+    "python", "java", "c", "c++", "c#", "javascript", "typescript",
+    "go", "golang", "ruby", "rust", "kotlin", "swift", "php", "matlab",
+    "scala", "perl", "r",
+
+    # Machine Learning / Data Science Core
+    "machine learning", "deep learning", "data science",
+    "data analysis", "statistical analysis", "feature engineering",
+    "model training", "model evaluation", "model deployment",
+    "hyperparameter tuning", "gradient boosting", "time series",
+
+    # ML Libraries
+    "scikit-learn", "pandas", "numpy", "matplotlib", "seaborn",
+    "xgboost", "lightgbm", "catboost",
+
+    # Deep Learning Frameworks
+    "tensorflow", "keras", "pytorch", "theano", "mxnet",
+    "onnx", "cuda", "cuDNN",
+
+    # NLP
+    "nlp", "natural language processing", "transformers",
+    "bert", "gpt", "llama", "roberta", "distilbert",
+    "text classification", "text generation", "tokenization",
+    "named entity recognition", "sentiment analysis",
+
+    # Computer Vision
+    "computer vision", "opencv", "image processing",
+    "object detection", "cnn", "yolo", "resnet", "vgg", "segmentation",
+
+    # Data Engineering
+    "etl", "data pipelines", "apache airflow", "apache spark",
+    "hadoop", "kafka", "flink", "data warehouse", "data lake",
+
+    # Databases
+    "sql", "mysql", "postgresql", "sqlite", "oracle", "mariadb",
+    "mongodb", "cassandra", "redis", "dynamodb", "elasticsearch",
+
+    # Cloud Platforms
+    "aws", "azure", "gcp", "google cloud", "amazon web services",
+    "cloud functions", "lambda", "s3", "ec2", "gke", "eks", "aks",
+
+    # DevOps / CI/CD
+    "docker", "kubernetes", "jenkins", "github actions", "gitlab ci",
+    "terraform", "ansible", "prometheus", "grafana",
+
+    # Web Development (Frontend)
+    "html", "css", "javascript", "react", "angular", "vue",
+    "bootstrap", "material-ui", "tailwind",
+
+    # Web Development (Backend)
+    "node.js", "express.js", "django", "flask", "fastapi", "spring boot",
+    "laravel", "ruby on rails",
+
+    # Mobile Development
+    "android", "kotlin", "swift", "flutter", "react native",
+
+    # Testing
+    "unit testing", "pytest", "selenium", "cypress",
+
+    # Tools / Misc
+    "git", "github", "gitlab", "jira", "linux", "vim", "vs code",
+    "postman", "swagger", "rest api", "grpc",
+
+    # AI Engineering / MLOps
+    "mlops", "model monitoring", "model optimization",
+    "quantization", "model compression", "api deployment",
+    "streamlit", "gradio",
+
+    # Big Data Ecosystem
+    "hdfs", "yarn", "zookeeper", "hive", "pig", "presto", "trino"
 ]
+
 
 # ===================== HELPERS =====================
 
